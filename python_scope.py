@@ -1,10 +1,10 @@
 #scope 
 temp_var = 10
 def add(num1, num2):
-    global local_var 
+    global local_var
     local_var= 5
     return num1 + num2 + local_var
-print(add(5,6))
+
 
 class TempLocalVariable:
     def addition(self,num1, num2):

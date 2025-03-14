@@ -17,5 +17,11 @@ temp_str4 = re.search(r"\bp\w+",txt)
 
 print(temp_str4.group())
 
-re.compile(r"\bp\w+")
-# print(temp_str3) 
+# 
+
+txt_ssn =  " added ssn into the notes 123-45-6789 "
+
+temp_str5 = re.search(r"\d{3}-\d{2}-\d{4}",txt_ssn)
+
+print(temp_str5.group())
+

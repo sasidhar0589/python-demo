@@ -14,3 +14,5 @@ if __name__ == '__main__':
     print("done")
     
 # multi processing  pool setup assignment
+
+# import joblib delayed and parallel

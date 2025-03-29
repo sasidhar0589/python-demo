@@ -17,7 +17,7 @@ class EmployeeDepartment(Employee,):
         super().__init__(name, age, department)
 
 employee = EmployeeDepartment("Swetha", 25, "IT")
-print(employee.department)
+print(EmployeeDepartment("Swetha", 25, "IT").display_employee_details())
 employe_salary = EmployeeSalary("Swetha", 25, "IT", 8000)
 print(employe_salary.name)
 employe_salary.display_employee_details()
